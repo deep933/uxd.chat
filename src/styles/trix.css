@@ -56,8 +56,7 @@ trix-toolbar .trix-button {
   border-radius: 0;
   background: transparent;
 }
-trix-toolbar .trix-button:not(:first-child) {
-}
+
 trix-toolbar .trix-button.trix-active {
   background: #cbeefa;
   color: black;
@@ -300,8 +299,7 @@ trix-editor .trix-button {
   border-radius: 0;
   background: transparent;
 }
-trix-editor .trix-button:not(:first-child) {
-}
+
 trix-editor .trix-button.trix-active {
   background: #cbeefa;
 }
@@ -368,7 +366,6 @@ trix-editor .attachment__metadata .attachment__size {
   margin-left: 0.2em;
   white-space: nowrap;
 }
-@charset "UTF-8";
 .trix-content {
   line-height: 1.5;
 }
